@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+
+<test name="firefoxTestcases" >
+
+<parameter name="browser" value="firefox"/>
+
+<classes>
+
+<class name="demo2.test.web.Grid"/>
+
+</classes>
+
+</test>
+
+<test name="chromeTestcases">
+
+<parameter name="browser" value="chrome"/>
+
+<classes>
+
+<class name="demo2.test.web.Grid"/>
+
+</classes>
+
+</test><!-- Test -->
+
+</suite> <!-- Suite -->

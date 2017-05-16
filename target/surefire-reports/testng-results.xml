@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12964" started-at="2017-05-16T05:44:13Z" finished-at="2017-05-16T05:44:26Z">
+    <groups>
+    </groups>
+    <test name="firefoxTestcases" duration-ms="7318" started-at="2017-05-16T05:44:13Z" finished-at="2017-05-16T05:44:20Z">
+      <class name="demo2.test.web.Grid">
+        <test-method status="PASS" signature="testgrid(java.lang.String)[pri:0, instance:demo2.test.web.Grid@2ed94a8b]" name="testgrid" is-config="true" duration-ms="5898" started-at="2017-05-16T11:14:13Z" finished-at="2017-05-16T11:14:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgrid -->
+        <test-method status="PASS" signature="testWebApp()[pri:0, instance:demo2.test.web.Grid@2ed94a8b]" name="testWebApp" duration-ms="1405" started-at="2017-05-16T11:14:19Z" finished-at="2017-05-16T11:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWebApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:demo2.test.web.Grid@2ed94a8b]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-05-16T11:14:20Z" finished-at="2017-05-16T11:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- demo2.test.web.Grid -->
+    </test> <!-- firefoxTestcases -->
+    <test name="chromeTestcases" duration-ms="5544" started-at="2017-05-16T05:44:20Z" finished-at="2017-05-16T05:44:26Z">
+      <class name="demo2.test.web.Grid">
+        <test-method status="PASS" signature="testgrid(java.lang.String)[pri:0, instance:demo2.test.web.Grid@2d554825]" name="testgrid" is-config="true" duration-ms="5012" started-at="2017-05-16T11:14:20Z" finished-at="2017-05-16T11:14:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgrid -->
+        <test-method status="PASS" signature="testWebApp()[pri:0, instance:demo2.test.web.Grid@2d554825]" name="testWebApp" duration-ms="532" started-at="2017-05-16T11:14:25Z" finished-at="2017-05-16T11:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWebApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:demo2.test.web.Grid@2d554825]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-05-16T11:14:26Z" finished-at="2017-05-16T11:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- demo2.test.web.Grid -->
+    </test> <!-- chromeTestcases -->
+  </suite> <!-- Suite -->
+</testng-results>
